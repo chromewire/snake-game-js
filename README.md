@@ -1,6 +1,3 @@
-# hello
+# snake-game-js
 
-- this 
-- is 
-- a
-- list
+following [Beginner JavaScript Project – Snake Game Tutorial](https://www.youtube.com/watch?v=uyhzCBEGaBY)
