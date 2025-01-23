@@ -50,19 +50,20 @@ function setPosition(element, position) {
 // draw();
 
 // Draw food function
-function drawFood(){
+function drawFood() {
+    if (gameStarted) {
     const foodElement = createGameElement('div', 'food');
     setPosition(foodElement, food);
     board.appendChild(foodElement);
+    }
 }
 
 // Generate food
 function generateFood() {
-    if (gameStarted) {
     const x = Math.floor(Math.random() * gridSize)  + 1;
     const y = Math.floor(Math.random() * gridSize)  + 1;
     return{ x, y };
-    }
+
 }
 
 // Moving the snake
